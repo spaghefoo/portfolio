@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+body
+{
+	font-size:15px;
+
+	margin: auto;
+	background-image:url("img/tile32alt.png");
+
+
+
+
+
+}
+h1{
+	text-align:center; 
+	background-color:saddlebrown; 
+
+	color:white;
+	font-family: Merriweather, serif;
+}
+
+ul 
+{
+list-style: none;
+
+}
+
+.normal
+{
+background: url("img/list-icons.png"), no-repeat;
+background-position: 0px 0;
+
+}
+
+.mail
+{
+background: url("img/list-icons.png"), no-repeat;
+background-position: -16px 0;
+}
+
+.tel
+{
+background: url("img/list-icons.png"), no-repeat;
+background-position: -32px 0;
+}
+
+.adresse
+{
+background: url("img/list-icons.png"), no-repeat;
+background-position: -48px 0;
+}
+
+.foot
+{
+background: url("img/list-icons.png"), no-repeat;
+background-position: -64px 0;	
+}
+
+.judo
+{
+background: url("img/list-icons.png"), no-repeat;
+background-position: -80px 0;	
+}
+
+.print
+{
+background: url("img/list-icons.png"), no-repeat;
+background-position: 0px 16px;	
+background-color:lightblue;
+height:20px;
+padding-left:18px;
+
+}
+
+.online
+{
+	background: url("img/list-icons.png"), no-repeat;
+	background-position: -96px 0;
+}
+
+.linkedin
+{
+	background: url("img/list-icons.png"), no-repeat;
+	background-position: -96px 16px;
+}
+
+.normal, .mail, .tel, .adresse, .foot, .judo, .online, .linkedin
+{
+
+	margin-right:10px;
+	height: 16px;
+	width: 16px;
+	display:inline-block;
+}
+.pfp
+{
+	border-radius: 50%;
+	border: 3mm double gold;
+	margin:0;
+}
+
+.content
+{
+
+		background-color:wheat;
+        margin:auto;
+        padding:5px;
+        box-sizing: border-box;
+        border-radius: 5px;
+
+}
+
+.int
+{
+	text-align: center;
+	object-position: center;
+}

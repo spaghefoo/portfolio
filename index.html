@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css" />
+    <style>
+        body
+        {
+        	font-family: Arial, sans-serif;
+        }
+ 
+
+#info_box
+{
+	background-color: gainsboro;
+	box-shadow: 0px 6px 25px 0.01em black;
+    float:right;
+	margin:auto;
+}
+	#resume
+	{
+	font-family:Roboto, sans-serif, Helvetica, sans-serif, Comic-sans MS;
+	}
+        #english::before
+        {
+			content:"";
+        	border-left:150px solid green;
+        	margin:1px;
+			border-right:50px solid grey;
+		
+        }
+
+
+
+        #deutsch::before
+        {
+			content:"";
+        	border-left:100px solid orange;
+        	margin:1px;
+			border-right:100px solid grey;
+        }
+		
+		#french::before
+		{
+		content:"";
+		border-left:140px solid lime;
+		margin:1px;
+		border-right:60px solid grey;
+		}
+		
+
+@media (min-width:750px)
+{
+		#resume, #comp
+		{
+		
+			width:70%;
+		}
+		.center
+		{
+			width:100%;
+			height:100%;
+		}
+		
+}
+
+button
+{
+border: 2px outset #f33;
+text-align:center;
+margin: 0 0 0 5%;
+
+}
+
+button:hover
+{
+background-color:orange;
+}
+button:focus
+{
+background-color:#55e;
+}
+button:active
+{
+background-color: #f05555;
+}
+
+
+#projets
+{
+	overflow-x: initial;
+	max-width:100%;
+	width:100%;
+	max-height: 200px;
+	overflow-x:scroll;
+	display:inline-flex;
+	flex-direction: row;
+}
+
+#projets span
+{
+	margin-left:80px;
+}
+
+#projets img
+{
+	margin-left: 20px;
+
+
+}
+
+.center
+{
+	transform: translate(50%);
+	height:50%;
+	width:50%;
+}
+    </style>
+    <title>Portfolio BTS ACHERAIOU SOFIANE</title>
+    </head>
+<body>
+		<h1>PORTFOLIO d'Acheraiou Sofiane</h1>
+		<button onclick="window.print()" class="print">Imprimer</button>
+<table style="width:100%">
+	<td>
+			
+			<img class="pfp" src="img/photo sofiane.png" height="256" width="200" /> 
+	</td>
+	<td>
+		
+	<div class="content" id="info_box">
+	<ul id="middle">
+
+		<li><p><span class="normal"></span>Nationalité française</p></li>
+		<li><p><span class="online"></span>Coordonnées de contact:</p></li>
+		<li><p><span class="mail"></span>Mail: <a href="mailto:sofiane@acheraiou.fr">sofiane[at]acheraiou.fr</a></p></li>
+		<li><p><span class="tel"></span>Téléphone: <a href="tel:+33631279135">+33 06 31 27 91 35</a></p></li>
+		<li ><p><span class="adresse"></span>Adresse: 165 digue d'artois, 59660 MERVILLE</p></li>
+		<li><span class='linkedin'></span> <a href='https://www.linkedin.com/in/abdelmadjid-acheraiou-01b771234/'> Profil linkedin</a></li>
+	</ul>
+</div>
+</td>
+
+</table>
+				
+	
+<br />
+
+<div class="content" id="resume">
+	<h2>Qui suis-je?</h2>
+	<p>Bonjour je m'appelle Acheraiou Sofiane passionné d'informatique depuis mon plus jeune âge j'ai déja designé plusieurs sites web dynamiques notamment pour un serveur de jeu et un blog, en PHP. Actuellement en 2ere Année de BTS SIO spécialité SLAM à Lille</p>
+<hr>
+<h2>Compétences Apprises</h2>
+
+	<img class='center' src='img/banner_comp.png' alt="dans l'ordre" width='500'/><br />
+
+<a target="_blank" href="https://icons8.com/icon/39852/logo-php">Logo PHP</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<h2>Projets effectués</h2>
+		<div id='projets' style='padding: 5px; background-color: whitesmoke; box-shadow: inset 1px 1px 7px black;'>
+			<a href='dl/Theme_veille_info.pdf'>
+				<img src='img/rss_feed.png' height=150 />
+				<small>Theme de veille</small>
+			</a>
+			<a href='proj/categories.html'>
+				<img src='img/consort.jpg' height=150 />
+				<small>1er Stage de BTS SIO</small>
+			</a>
+			<a href='proj/index.html'>
+				<img src='proj/img/sandblocks_2.PNG' height='150' />
+				<small>Projet personnel</small>
+
+			</a>
+			<a href='proj/index.html'>
+				<img class='oui' src='proj/img/gaston_resto.PNG' height='150'/>
+				<small>Projet Resto GB(BTS SIO)</small>
+
+			</a>
+		</div>
+</div>
+
+<div class="content" id="comp">
+<h2>Langues</h2>
+<span>Anglais: Très bon niveau</span>
+	<div id="english"></div>
+<br />
+<span>Allemand: niveau scolaire</span>
+	<div id="deutsch"></div>
+<br />
+<span>Français: langue maternelle</span>
+	<div id="french"></div>
+<hr>
+<ul id="Cursus">
+	<h2>Cursus</h2>
+		<p><span class="adresse"></span>2015 - 2017: College saint robert (MERVILLE)</p>
+		<p><span class="normal"></span>2018 - Lycée Val de LYS (ESTAIRES)</p>
+		<p><span class="normal"></span>2019 - 2021: Lycée gustave eiffel (ARMENTIERES) STI2D spécialité: SIN</p>
+		<p><span class="normal"></span>2021-2023 Lycée Gaston Berger(LILLE), BTS SIO Spécialité SLAM</p>
+</ul>
+<hr>
+<ul id="stages">
+	<h2>STAGES</h2>
+		<p><span class="normal"></span>4eme: Mairie de Merville</p>
+		<p><span class="normal"></span>3ème: Pharmacie du Beffroi(Merville)</p>
+		<p><span class="normal"></span>2022: Stage ConsortNT Lestrem</p>
+</ul>
+<hr>
+<ul id="experiences">
+	<h2>SPORTS</h2>
+		<p><span class="judo"></span>Judo de Merville(3 ans)</p>
+		<p><span class="foot"></span>Club de foot merville(3 ans)</p>
+</ul>
+<hr>
+<div id="competences">
+	
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
