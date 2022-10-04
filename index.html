@@ -21,6 +21,7 @@
 	#resume
 	{
 	font-family:Roboto, sans-serif, Helvetica, sans-serif, Comic-sans MS;
+	font-size: 1.25em;
 	}
         #english::before
         {
@@ -52,7 +53,7 @@
 
 @media (min-width:750px)
 {
-		#resume, #comp
+		#resume, #comp, .content
 		{
 		
 			width:70%;
@@ -89,13 +90,13 @@ background-color: #f05555;
 
 #projets
 {
-	overflow-x: initial;
 	max-width:100%;
 	width:100%;
 	max-height: 200px;
 	overflow-x:scroll;
 	display:inline-flex;
 	flex-direction: row;
+	
 }
 
 #projets span
@@ -149,37 +150,41 @@ background-color: #f05555;
 
 <div class="content" id="resume">
 	<h2>Qui suis-je?</h2>
-	<p>Bonjour je m'appelle Acheraiou Sofiane passionné d'informatique depuis mon plus jeune âge j'ai déja designé plusieurs sites web dynamiques notamment pour un serveur de jeu et un blog, en PHP. Actuellement en 2ere Année de BTS SIO spécialité SLAM à Lille</p>
-<hr>
-<h2>Compétences Apprises</h2>
-
+	<p>Bonjour je m'appelle Acheraiou Sofiane passionné d'informatique depuis mon plus jeune âge, j'ai déja designé plusieurs sites web dynamiques notamment pour un serveur de jeu et un blog, en PHP. Actuellement en 2ere Année de BTS SIO spécialité SLAM à Lille</p>
+</div>
+<!--<h2>Compétences Apprises</h2>
 	<img class='center' src='img/banner_comp.png' alt="dans l'ordre" width='500'/><br />
 
-<a target="_blank" href="https://icons8.com/icon/39852/logo-php">Logo PHP</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<div class='content'>
+<a target="_blank" href="https://icons8.com/icon/39852/logo-php">Logo PHP</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>-->
+
+<br /><br />
+<div class='content'>
 <h2>Projets effectués</h2>
 		<div id='projets' style='padding: 5px; background-color: whitesmoke; box-shadow: inset 1px 1px 7px black;'>
 			<a href='dl/Theme_veille_info.pdf'>
-				<img src='img/rss_feed.png' height=150 />
+				<img src='img/rss_feed.png' height=150 /><br />
 				<small>Theme de veille</small>
 			</a>
 			<a href='proj/categories.html'>
-				<img src='img/consort.jpg' height=150 />
+				<img src='img/consort.jpg' height=150 /><br />
 				<small>1er Stage de BTS SIO</small>
 			</a>
 			<a href='proj/index.html'>
-				<img src='proj/img/sandblocks_2.PNG' height='150' />
+				<img src='proj/img/sandblocks_2.PNG' height='150' /><br />
 				<small>Projet personnel</small>
 
 			</a>
 			<a href='proj/index.html'>
-				<img class='oui' src='proj/img/gaston_resto.PNG' height='150'/>
+				<img class='oui' src='proj/img/gaston_resto.PNG' height='150'/><br />
 				<small>Projet Resto GB(BTS SIO)</small>
 
 			</a>
 		</div>
 </div>
 
-<div class="content" id="comp">
+<br />
+<div class="content">
 <h2>Langues</h2>
 <span>Anglais: Très bon niveau</span>
 	<div id="english"></div>
@@ -199,10 +204,11 @@ background-color: #f05555;
 </ul>
 <hr>
 <ul id="stages">
-	<h2>STAGES</h2>
-		<p><span class="normal"></span>4eme: Mairie de Merville</p>
-		<p><span class="normal"></span>3ème: Pharmacie du Beffroi(Merville)</p>
-		<p><span class="normal"></span>2022: Stage ConsortNT Lestrem</p>
+	<h2>Experiences Profressionelles</h2>
+		<p><span class="normal"></span>Stage de 4eme: Mairie de Merville</p>
+		<p><span class="normal"></span>Stage de 3ème: Pharmacie du Beffroi(Merville)</p>
+		<p><span class="normal"></span>Stage 1ère année BTS SIO: Stage ConsortNT Lestrem</p>
+		<p><span class="normal"></span>Stage rémunéré ConsortNT(2022)</p>
 </ul>
 <hr>
 <ul id="experiences">
