@@ -88,28 +88,7 @@ background-color: #f05555;
 }
 
 
-#projets
-{
-	max-width:100%;
-	width:100%;
-	max-height: 200px;
-	overflow-x:scroll;
-	display:inline-flex;
-	flex-direction: row;
-	
-}
 
-#projets span
-{
-	margin-left:80px;
-}
-
-#projets img
-{
-	margin-left: 20px;
-
-
-}
 
 .center
 {
@@ -126,7 +105,7 @@ background-color: #f05555;
 <table style="width:100%">
 	<td>
 			
-			<img class="pfp" src="img/photo sofiane.png" height="256" width="200" /> 
+			<img src="img/photo sofiane.png" height="256" width="200" /> 
 	</td>
 	<td>
 		
@@ -158,12 +137,34 @@ background-color: #f05555;
 
 <br /><br />
 <div class='content'>
+	<h2>PROJETS BTS SIO</h2>
+	<div class='projets'>
+		<a href='dl/Installation HAproxy.pdf'>
+			<img src="img/Microsoft_Word_2013-2019_logo.svg.png" height="150" />
+			<small>Installation et configuration d'un serveur HAproxy</small>
+		</a>
+
+		<a href='proj/index.html'>
+			<img src='proj/img/marieteam.png' height='150'/>
+			<small>Projet MarieTeam</small>
+		</a>
+
+		<a href='dl/Theme_veille_info.pdf'>
+			<img src='img/rss_feed.png' height=150 /><br />
+			<small>Theme de veille BTS SIO</small>
+		</a>
+
+		<a href='proj/index.html'>
+			<img class='oui' src='proj/img/gaston_resto.png' height='150'/><br />
+			<small>Projet Resto GB(BTS SIO)</small>
+		</a>
+	</div>
+</div>
+<br />
+
+<div class='content'>
 <h2>Projets effectués</h2>
-		<div id='projets' style='padding: 5px; background-color: whitesmoke; box-shadow: inset 1px 1px 7px black;'>
-			<a href='dl/Theme_veille_info.pdf'>
-				<img src='img/rss_feed.png' height=150 /><br />
-				<small>Theme de veille BTS SIO</small>
-			</a>
+		<div class='projets' style=''>
 			<a href='proj/categories.html'>
 				<img src='img/consort.jpg' height=150 /><br />
 				<small>Experiences Consort NT</small>
@@ -171,12 +172,6 @@ background-color: #f05555;
 			<a href='proj/index.html'>
 				<img src='proj/img/sandblocks_2.png' height='150' /><br />
 				<small>Projets personnels</small>
-
-			</a>
-			<a href='proj/index.html'>
-				<img class='oui' src='proj/img/gaston_resto.png' height='150'/><br />
-				<small>Projet Resto GB(BTS SIO)</small>
-
 			</a>
 		</div>
 </div>
@@ -215,11 +210,5 @@ background-color: #f05555;
 	
 </div>
 </div>
-
-
-
-
-
-
 </body>
 </html>
