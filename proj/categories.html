@@ -53,8 +53,6 @@
 			margin-left:50%;
 			padding-left:30px;
 			padding-top:15px;
-			background-image: url('img/arrow_go_back_icon_206151.png');
-			background-size:contain;
 		}
 
 		.item::before
@@ -66,24 +64,30 @@
 			background-position: 0px 0;
 			display:inline-block;
 		}
+
+		.texte img
+		{
+			height:33%;
+			width:33%;
+		}
 	</style>
 	<title>Stage 1ère année compétences</title>
 </head>
 <body>
 	<header>
-
-		<a href='../index.html' class='btn-retour'>sdfdsf</a>
-
-
 		<h1>Stage première année</h1>
 		<h2>Entreprise: Consort NT</h2>
 		<h3>Tuteur: Gilles lippelvelde</h3>
 	</header>
 	<div class='container'>
 		<div class='item' id='menu1' onclick='afficheMenu(0);'>Gerer le patrimoine informatique</div>
-		<div class='texte' id='1'>Mise en place d'un outil de gestion du patrimoine(Gestion du remplacement de materiel, de l'ajout de materiel pour les nouveaux salariés, décommission du vieux materiel.) en PHP sur Windows Server</div>
+		<div class='texte' id='1'>
+			Mise en place d'un outil de gestion du patrimoine(Gestion du remplacement de materiél, de l'ajout de matériel pour les nouveaux salariés, décommission du vieux materiel.) en PHP sur Windows Server
+			<img src="img_stage/img1_p1.PNG" ><br />
+			<img src="img_stage/img2_p1.PNG" />
+		</div>
 
-		<div class='item' onclick='afficheMenu(1);'>Répondre aux incidents et aux demandes d'assisantce et d'evolution</div>
+		<div class='item' onclick='afficheMenu(1);'>Répondre aux incidents et aux demandes d'assistance et d'évolution</div>
 		<div class='texte' id='2'>
 <p>Discussion avec les differents utilisateurs de l'outil de planning interne IMAC qui à été mis en place pour une grosse entreprise ainsi qu'avec les managers afin d'avoir leur retour sur l'outil, leur explications en detail du but de l'outil de leur usages, de l'evolution souhaités et des differents soucis recontrés
 et amélioration et correction progressive de l'outil afin de coller le plus possible aux differentes remarques et objectifs.</p><br />
@@ -96,8 +100,8 @@ et amélioration et correction progressive de l'outil afin de coller le plus pos
 	<li>-Modification extensive du système de mail interne permettant de confimer à l'utilisateur de sa date d'IMAC et des relances en cas de non-prise de rendez-vous</li>
 	<li>-amélioration de la vitesse de l'application</li>
 </ul>
-			<i> absolument inserer images diapo et detailler plus + tard</i>
-
+<img src="img_stage/img1_p2.PNG" ><br />
+<img src="img_stage/img2_p2.PNG" />
 		</div>
 
 		<div class='item'>Développer la présence en ligne de l'organisation</div>
@@ -107,15 +111,17 @@ et amélioration et correction progressive de l'outil afin de coller le plus pos
 		<div class='item' onclick='afficheMenu(3);'>Travailler en mode projet</div>
 		<div class='texte' id='4'>
 			<p>Mise en place d'un planning et d'ajouts prioritaires lors de reunions hebdomadaires, revue du code et des ajouts chaque semaines lors de ces réunions. Travail en groupe avec un second stagaire. Explication du projet et travail en parallèle sur plusieurs segments de code. Utilisation d'outils de communication(Teams, Powerpoint) afin de partager regulièrement les avancées du projet</p>
-			<i>inserer images diapo et detailler un peu plus + tard</i>
+			<img src='img_stage/img1_p2.png' />
+			<img src='' />
+			<img src='' />
 		</div>
 
 
 		<div class='item' onclick='afficheMenu(4);'>Mettre a disposition des utilisateurs un service informatique</div>
 		<div class='texte' id='5'>
 			<p>Modification et upload règulier de l'outil et de la base de donnée modifiée en FTP sur le serveur local dans lequel ce service est hebergé, une fois des tests rigoureux et longs avec un jeu de test sur un PC en local et import de la nouvelle structure de la base de données et conversion de l'ancien jeu de données, lors de la mise en production</p>
-			<i>inserer images(si possible) et detailler un peu plus + tard</i>
-
+			<img src='' />
+			<img src='' />
 		</div>
 
 
@@ -124,6 +130,7 @@ et amélioration et correction progressive de l'outil afin de coller le plus pos
 
 
 	</div>
+	<a href='../index.html' class='btn-retour'>Revenir au portfolio</a>
 
 	<script>
 		function afficheMenu(obj)
